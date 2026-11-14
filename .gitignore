@@ -129,12 +129,20 @@ celerybeat.pid
 
 # Environments
 .env
-.venv
+.env.*
+!.env.example
+.venv/
 env/
 venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Editor and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
 
 # Spyder project settings
 .spyderproject
